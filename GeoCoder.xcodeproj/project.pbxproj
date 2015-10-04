@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		24DF99C11BB923D5003A058F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DF99C01BB923D5003A058F /* main.m */; };
 		24DF99C41BB923D5003A058F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DF99C31BB923D5003A058F /* AppDelegate.m */; };
-		24DF99C71BB923D5003A058F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DF99C61BB923D5003A058F /* ViewController.m */; };
+		24DF99C71BB923D5003A058F /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DF99C61BB923D5003A058F /* TableViewController.m */; };
 		24DF99CA1BB923D5003A058F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DF99C81BB923D5003A058F /* Main.storyboard */; };
 		24DF99CC1BB923D5003A058F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DF99CB1BB923D5003A058F /* Images.xcassets */; };
 		24DF99CF1BB923D5003A058F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24DF99CD1BB923D5003A058F /* LaunchScreen.xib */; };
 		24DF99DB1BB923D5003A058F /* GeoCoderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DF99DA1BB923D5003A058F /* GeoCoderTests.m */; };
+		759E5AE91BBF7BB300FC6399 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759E5AE81BBF7BB300FC6399 /* MapKit.framework */; };
+		75E819741BC0E46300E0136D /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E819731BC0E46300E0136D /* ImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,17 @@
 		24DF99C01BB923D5003A058F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		24DF99C21BB923D5003A058F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24DF99C31BB923D5003A058F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		24DF99C51BB923D5003A058F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		24DF99C61BB923D5003A058F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		24DF99C51BB923D5003A058F /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		24DF99C61BB923D5003A058F /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		24DF99C91BB923D5003A058F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24DF99CB1BB923D5003A058F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		24DF99CE1BB923D5003A058F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		24DF99D41BB923D5003A058F /* GeoCoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoCoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DF99D91BB923D5003A058F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24DF99DA1BB923D5003A058F /* GeoCoderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoCoderTests.m; sourceTree = "<group>"; };
+		759E5AE81BBF7BB300FC6399 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		75E819721BC0E46300E0136D /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		75E819731BC0E46300E0136D /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				759E5AE91BBF7BB300FC6399 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,7 @@
 		24DF99B21BB923D5003A058F = {
 			isa = PBXGroup;
 			children = (
+				759E5AE81BBF7BB300FC6399 /* MapKit.framework */,
 				24DF99BD1BB923D5003A058F /* GeoCoder */,
 				24DF99D71BB923D5003A058F /* GeoCoderTests */,
 				24DF99BC1BB923D5003A058F /* Products */,
@@ -83,9 +90,11 @@
 			children = (
 				24DF99C21BB923D5003A058F /* AppDelegate.h */,
 				24DF99C31BB923D5003A058F /* AppDelegate.m */,
-				24DF99C51BB923D5003A058F /* ViewController.h */,
-				24DF99C61BB923D5003A058F /* ViewController.m */,
+				24DF99C51BB923D5003A058F /* TableViewController.h */,
+				24DF99C61BB923D5003A058F /* TableViewController.m */,
 				24DF99C81BB923D5003A058F /* Main.storyboard */,
+				75E819721BC0E46300E0136D /* ImageViewController.h */,
+				75E819731BC0E46300E0136D /* ImageViewController.m */,
 				24DF99CB1BB923D5003A058F /* Images.xcassets */,
 				24DF99CD1BB923D5003A058F /* LaunchScreen.xib */,
 				24DF99BE1BB923D5003A058F /* Supporting Files */,
@@ -219,8 +228,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24DF99C71BB923D5003A058F /* ViewController.m in Sources */,
+				24DF99C71BB923D5003A058F /* TableViewController.m in Sources */,
 				24DF99C41BB923D5003A058F /* AppDelegate.m in Sources */,
+				75E819741BC0E46300E0136D /* ImageViewController.m in Sources */,
 				24DF99C11BB923D5003A058F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GeoCoder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +369,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GeoCoder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +428,7 @@
 				24DF99E01BB923D5003A058F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24DF99E11BB923D5003A058F /* Build configuration list for PBXNativeTarget "GeoCoderTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				24DF99E31BB923D5003A058F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
